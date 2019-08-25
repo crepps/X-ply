@@ -288,22 +288,22 @@ void Controller::Vibrate(int l_value, int r_value)
 int Controller::Map(int value)
 {
 	/*
-		0		UP				0x0001		1
+		0		UP			0x0001		1
 		1		DOWN			0x0002		2
 		2		LEFT			0x0004		4
 		3		RIGHT			0x0008		8
 		4		START			0x0010		16
 		5		BACK			0x0020		32
-		6		L3				0x0040		64
-		7		R3				0x0080		128
-		8		LB				0x0100		256
-		9		RB				0x0200		512
+		6		L3			0x0040		64
+		7		R3			0x0080		128
+		8		LB			0x0100		256
+		9		RB			0x0200		512
 		10		UNDEFINED		0x0400		1024
 		11		UNDEFINED		0x0800		2048
-		12		A				0x1000		4096
-		13		B				0x2000		8192
-		14		X				0x4000		16384
-		15		Y				0x8000		32768
+		12		A			0x1000		4096
+		13		B			0x2000		8192
+		14		X			0x4000		16384
+		15		Y			0x8000		32768
 
 		This function takes a button's XInput-defined value (columns 3 and 4) and returns its enumerated value (column 1).
 	*/
