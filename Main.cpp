@@ -8,6 +8,7 @@ int main(int argc, char** argv)
 
 	XINPUT_STATE* state = controller.GetState();
 
+	// Debug
 	while (true)
 	{
 		std::cout << (int)state->Gamepad.wButtons;
@@ -18,4 +19,6 @@ int main(int argc, char** argv)
 	}
 
 	_getch();
+	
+	return EXIT_SUCCESS;
 }
